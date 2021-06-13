@@ -1,0 +1,92 @@
+body{
+  background-color:#48D1CC;
+  margin:0px;
+  padding:0px;
+}
+
+.navigation{
+  width:100vw;
+  height:50px;
+  background-color:rgb(1,1,1,1);
+}
+
+.navigation ul a li{
+  list-style-type: none;
+  margin-top:-40px;
+  margin-left:25px;
+  color:white;
+}
+.title{
+  margin-left:40px;
+  padding:5px;
+  color:beige;
+}
+.navigation ul{
+  margin-left:750px;
+  display:flex;
+}
+
+
+.navigation ul a{
+  text-decoration: none;
+}
+.homepage{
+  display:flex;
+  margin-left:200px;
+  margin-top:80px;
+  margin-right:250px;
+  background-color:bisque;
+  border:2px solid;
+}
+.homepage img{
+  width:400px;
+  height:400px;
+  padding:15px;
+}
+.name{
+  color:blue;
+  font-size:2.1em;
+  font-weight:500;
+  font-family:serif;
+}
+.homepage section p{
+  font-size:1.1em;
+  font-weight:20;
+}
+.homepage section{
+  margin-top:100px;
+}
+.homepage section button{
+  color:white;
+  border-radius: 25px;
+  width:200px;
+  background-color:black;
+}
+button a{
+  color:white;
+}
+#img{
+  width:400px;
+  height:400px;
+  margin-top:40px;
+  margin-left:100px;
+}
+#gg{
+  display:flex;
+}
+#gg section p{
+  margin:50px;
+}
+a{
+  text-decoration: none;
+}
+.homepage section button:hover{
+  background-color:#48D1CC;
+  transition:all ease 0.2s;
+
+}
+.navigation ul a li:hover{
+  background-color:#48D1CC;
+  transition:all ease 0.2s;
+
+}
